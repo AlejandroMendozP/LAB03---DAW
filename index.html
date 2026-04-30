@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="pub/styles.css">
+</head>
+<body>
+    <div id="contenedorG">
+        <div class="caja item1">
+            <h1><img src="pub/img/calendar_1f4c5.png" alt="calendario"> Agenda Personal</h1>
+            <p>Sistema de administración de eventos</p>
+        </div>
+        <div class="colizq">
+            <div class="caja item2">
+                <h2><img src="pub/img/lapiz.png" alt="lapiz"> Editar Evento</h2>
+                <form id="formulario">
+                    <label for="fecha">Fecha:</label><br>
+                    <input type="date" id="fecha" name="fecha"><br><br>
+                    <label for="hora">Hora:</label><br>
+                    <input type="time" id="hora" name="hora"><br><br>
+                    <label for="descripcion">Descripción</label><br>
+                    <textarea id="descripcion" name="descripcion"></textarea><br><br>
+                    <div id="botonesForm">
+                        <button id="actualizar">Actualizar</button>
+                        <button id="cancelar">Cancelar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="caja item3">
+                <h2>Vista</h2>
+                <div id="botones">
+                    <button class="boton botonL" id="botonL">Lista</button>
+                    <button class="boton botonE" id="botonE">Estructura</button>
+                </div>
+            </div>
+        </div>
+        <div class="colder">
+            <div class="caja item4">
+                <h2> <img src="pub/img/tabla.png" alt="tabla"> Eventos programados</h2>
+                <div id="modoLista"></div>
+                <div id="vistaCalendario">
+                    <div id="cajaMesesBotones">
+                        <button class="botonMes" id="antes"><</button>
+                        <h3 id="mes"></h3>
+                        <button class="botonMes" id="despues">></button>
+                    </div>
+                    <div id="semana"></div>
+                    <div id="cuadricula"></div>
+                </div>
+            </div>
+            <div class="caja item5">
+                <h2><img src="pub/img/stat.png" alt="estadistica"> Estadísticas</h2>
+                <div id="contenedorP">
+                   <div id="stats1">
+                        <h3>Total eventos</h3>
+                        <p id="txtE">Fortnite</p>
+                    </div>
+                    <div id="stats2">
+                        <h3>Fechas únicas</h3>
+                        <p id="txtF">Fotnite</p>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
