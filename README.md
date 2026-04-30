@@ -1,4 +1,4 @@
-# Agenda Personal - JavaScript Backend
+ Agenda Personal - JavaScript Backend
 
 Una aplicación web de una sola página (SPA) para la administración de eventos personales. Este proyecto permite visualizar, crear, editar y eliminar eventos, los cuales se almacenan de forma dinámica y estructurada directamente en el sistema de archivos del servidor.
 
@@ -47,5 +47,5 @@ http://localhost:3000
 ```
 
 VIDEO DE PRUEBA:
-https://www.youtube.com/watch?v=BhTDGMH2iiM
+https://youtu.be/v-G5uXyjMCs?feature=shared
 
