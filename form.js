@@ -91,4 +91,5 @@ function actualizarEstadisticas() {
     const fechasUnicas = new Set(fechas);
 
     fechasUnicasInput.value = fechasUnicas.size;
+    
 }
