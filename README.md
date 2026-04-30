@@ -28,23 +28,18 @@ Realizado procesamiento dinámico de datos mediante una API RESTful básica.
 ---------------------------------
 COMO CORRERLO:
 
-Clonar o descargar el repositorio:
+1. Clonar o descargar el repositorio:
 Abre tu terminal y ubícate en la carpeta del proyecto.
 
-Instalar las dependencias:
+2. Instalar las dependencias:
 El proyecto requiere Express para levantar el servidor. Ejecuta el siguiente comando para instalarlo:
 
-Bash
 npm install express
-Iniciar el servidor:
+
+3. Iniciar el servidor:
 Ejecuta el archivo principal del backend con Node:
 
-Bash
-node index.js
-(Deberías ver un mensaje en la consola indicando: Servidor en http://localhost:3000)
 
-Abrir la aplicación:
-Abre tu navegador web de preferencia y dirígete a:
+4. Abrir la aplicación:
 
-Plaintext
 http://localhost:3000
