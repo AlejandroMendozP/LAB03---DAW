@@ -43,3 +43,7 @@ Ejecuta el archivo principal del backend con Node:
 4. Abrir la aplicación:
 
 http://localhost:3000
+
+VIDEO DE PRUEBA:
+https://www.youtube.com/watch?v=BhTDGMH2iiM
+
